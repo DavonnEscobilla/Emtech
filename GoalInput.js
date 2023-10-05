@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import {StyleSheet, View, Button, TextInput, Pressable, Text} from 'react-native';
-import PetsIcon from '@mui/icons-material/Pets';
 
 function GoalInput(props) {
 const [enteredGoalText, setEnteredText] = useState("");
